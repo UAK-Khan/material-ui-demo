@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
     <div>
-      <div>Hello World</div>
-      <p>This is code from uak-test-branch</p>
+      <Layout />
     </div>
   );
 }
